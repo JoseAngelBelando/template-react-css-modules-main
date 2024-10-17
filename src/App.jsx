@@ -1,15 +1,15 @@
-import Button from './components/button/Button';
-import { GlobalStyles } from './styles/GlobalStyles';
+import Card from "./components/card/Card";
+import { GlobalStyles } from "./styles/GlobalStyles";
 
 const App = () => {
-	return (
-		<div>
-			<GlobalStyles />
+	return <>
+	
+	<GlobalStyles />
 			<h1>Curso de React</h1>
-			<Button color='steelblue'>Click Me!</Button>
-			<Button color='#f0f'>Click Me!</Button>
-		</div>
-	);
+			<Card title='Titulo 1' color='red'></Card>
+			<Card title='Titulo 2' color='green'></Card>
+			<Card title='Titulo 3' color='blue'></Card>
+		</>
 };
 
 export default App;
